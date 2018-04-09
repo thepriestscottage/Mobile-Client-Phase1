@@ -17,8 +17,8 @@ import java.io.InputStreamReader;
 public class MainActivity extends AppCompatActivity {
 
     //<phd004> is written per contract PHD-004 with d2b, Inc.
-    //This serves as a mobile client for a text-to-speech
-    //server, for headset alert reception.
+    //This serves as a mobile client for a ****************
+    //server, for ***************.
 
     //Client will send entered <String message> to the server.
 
