@@ -106,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             catch (UnknownHostException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
                 TextView tv = (TextView) findViewById(R.id.textView);
                 tv.setText("UnknownHostException: " + e.toString() + "\n");
@@ -120,7 +119,6 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         client.close();
                     } catch (IOException e) {
-                        // TODO Auto-generated catch block
                         e.printStackTrace();
                     }
                 }
